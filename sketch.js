@@ -16,8 +16,8 @@ function setup() {
   circuloX = [0, 0, 0, 0, 0];
   circuloY = [random(height), random(height), random(height), random(height), random(height)];
 
-  // Chama a função para alterar a cor a cada 2 segundos
-  setInterval(mudarCor, 1000);
+  // Chama a função para alterar a cor a cada 0,5 segundos
+  setInterval(mudarCor, 500);
 }
 
 function mudarCor() {
