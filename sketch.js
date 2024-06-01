@@ -1,10 +1,13 @@
 let cor;
 
-let circuloX;
-let circuloY;
+let circuloX; // horizontal
+let circuloY; // vertical
 
 let x2;
 let y2;
+
+//x = posição horizontal
+//y = posição vertical
 
 function setup() {
   createCanvas(windowWidth - 1, windowHeight - 1); // width x height
@@ -13,7 +16,7 @@ function setup() {
   circuloX = [0, 0, 0, 0, 0];
   circuloY = [random(height), random(height), random(height), random(height), random(height)];
 
-  // Chama a função para alterar a cor a cada 1 segundo
+  // Chama a função para alterar a cor a cada 2 segundos
   setInterval(mudarCor, 1000);
 }
 
